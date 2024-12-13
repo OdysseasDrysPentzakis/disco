@@ -175,7 +175,7 @@ def setup_path(args):
 @hydra.main(config_path="config/secret/", config_name="keys", version_base="1.3.2")
 def set_up_api(keys: DictConfig):
     openai.organization = keys.organization_token
-    openai.api_key = keys.api_token
+    openai.api_key = keys.api_token_1
 
 
 @hydra.main(config_path="config", config_name="config", version_base="1.3.2")

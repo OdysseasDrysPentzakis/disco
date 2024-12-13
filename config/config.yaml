@@ -24,14 +24,4 @@
   prompt_search: False                         # enable dynamic demonstration selection 
 
 # filter_params:
-  filter_all: True                    # filter all previous generation outputs
-
-# util_params:
-  local_rank: 0                         # locak rank of cuda devices
-  api_idx: 0                            # api index if multiple api tokens
-
-#wandb_params:
-  project: gpt3-counterfactual-generation
-  entity: causal_scaffold
-  name: gpt_generation_logger
-  
+  filter_all: Flase                    # filter all previous generation outputs
